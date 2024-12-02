@@ -1,0 +1,10 @@
+Sat Nov 16 22:05:32 CST 2024: [/quil/1号KEY/] Signature check passed
+gRPC not enabled, using light node
+Total balance: 0.000000000000 QUIL (Account 0x0000000000000000000000000000000000000000000000000000000000000000)
+Sat Nov 16 22:05:35 CST 2024: [/quil/2号key/] Signature check passed
+gRPC not enabled, using light node
+Total balance: 0.000000000000 QUIL (Account 0x0000000000000000000000000000000000000000000000000000000000000000)
+Sat Nov 16 22:05:37 CST 2024: [/quil/3号key/] Signature check passed
+gRPC not enabled, using light node
+Total balance: 0.000000000000 QUIL (Account 0x0000000000000000000000000000000000000000000000000000000000000000)
+QUIL 总和: 0
