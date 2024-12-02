@@ -2,6 +2,50 @@ QUIL-AutoScripts
 
 QUIL-AutoScripts is a comprehensive collection of shell scripts for automating various processes within the QUIL project. These scripts include functionalities like querying balances, generating collection commands, merging tokens, and configuring settings, ensuring an efficient workflow for users and developers.
 
+Important Notice
+
+File Placement
+
+1.	The following scripts must be placed in QUIL’s working directory, such as ~/ceremonyclient/node/:
+	•	save_balance_loop.sh
+	•	save_coins_full_output.sh
+	•	execute_transfer_commands.sh
+	•	merge_token.sh
+	•	merge_runner.sh
+	•	transfer_tokens.sh
+
+2.	The script configure_node.sh must be placed in the parent directory of the configuration files.
+Ensure that this script is at the same level as the config directory.
+
+Permissions
+
+All script files must be granted execution permissions. Use the following command to apply execute permissions to all scripts:
+
+chmod +x save_balance_loop.sh save_coins_full_output.sh execute_transfer_commands.sh merge_token.sh merge_runner.sh transfer_tokens.sh configure_node.sh
+
+Example Directory Structure
+
+~/ceremonyclient/
+│
+├── node/
+│   ├── save_balance_loop.sh
+│   ├── save_coins_full_output.sh
+│   ├── execute_transfer_commands.sh
+│   ├── merge_token.sh
+│   ├── merge_runner.sh
+│   ├── transfer_tokens.sh
+│   └── [Other working files...]
+│
+├── configure_node.sh
+├── config/
+│   ├── config.yml
+│   └── [Other config files...]
+
+Summary | 总结
+
+	•	Script Placement: Follow the directory requirements strictly to ensure proper script functionality.
+	•	Permissions: Always set execution permissions using chmod +x. Without proper permissions, the scripts will not run.
+    
 Scripts Overview
 
 1. save_balance_loop.sh: Automatic Balance Query (Summary Mode)
