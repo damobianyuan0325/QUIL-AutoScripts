@@ -1,6 +1,6 @@
 #!/bin/bash
 # 设置执行命令的路径，这里需要替换成最新的命令，并且需要匹配架构，例如linux-amd64或者是darwin-arm64
-CMD="./qclient-2.0.2.3-darwin-arm64 token transfer"
+CMD="./qclient-2.0.4.1-linux-amd64 token transfer"
 
 # 设置输入和输出文件
 INPUT_FILE="coins_full_output.txt"

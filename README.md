@@ -41,11 +41,11 @@ Example Directory Structure
 │   ├── config.yml
 │   └── [Other config files...]
 
-Summary | 总结
+Summary
 
 	•	Script Placement: Follow the directory requirements strictly to ensure proper script functionality.
 	•	Permissions: Always set execution permissions using chmod +x. Without proper permissions, the scripts will not run.
-    
+
 Scripts Overview
 
 1. save_balance_loop.sh: Automatic Balance Query (Summary Mode)

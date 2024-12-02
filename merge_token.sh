@@ -3,9 +3,9 @@
 # 定义工作目录和命令
 WORK_DIR="~/ceremonyclient/node/"
 # config=接收地址的配置文件路径，这个记得改
-COMMAND="./qclient-2.0.2.3-darwin-arm64 token coins --config=/QUIL/config/"
+COMMAND="./qclient-2.0.4.1-linux-amd64 token coins --config=/QUIL/config/"
 # 设置命令路径 这里需要替换成最新的命令，并且需要匹配架构，例如linux-amd64或者是darwin-arm64
-MERGE_COMMAND="./qclient-2.0.2.3-darwin-arm64 token merge"
+MERGE_COMMAND="./qclient-2.0.4.1-linux-amd64token merge"
 # 接收地址的配置文件路径
 CONFIG_PATH="/QUIL/config/"
 

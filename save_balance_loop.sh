@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 设置命令路径 这里需要替换成最新的命令，并且需要匹配架构，例如linux-amd64或者是darwin-arm64
-CMD="./qclient-2.0.2.3-darwin-arm64 token balance"
+CMD="./qclient-2.0.4.1-linux-amd64 token balance"
 
 # 设置包含配置子目录的主目录
 MAIN_DIR="/quil"  # 修改为你的主目录路径，将本命令放在/quil这个目录下执行
